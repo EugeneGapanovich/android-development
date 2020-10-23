@@ -33,8 +33,9 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     value = edText.getText().toString();
                 }
+                int sendingValue = Integer.parseInt(tView.getText().toString()) + Integer.parseInt(value);
                 Intent intentToSecondActivity = new Intent(MainActivity.this, SecondActivity.class);
-                intentToSecondActivity.putExtra("message", value);
+                intentToSecondActivity.putExtra("message", Integer.toString(sendingValue));
                 startActivity(intentToSecondActivity);
             }
         });
