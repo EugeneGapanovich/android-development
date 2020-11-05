@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Локализация, Стили, Разметка</string>
+    <string name="button_ok">ОК</string>
+    <string name="enter_value">Введите значение</string>
+    <string name="view_value">0</string>
+</resources>
