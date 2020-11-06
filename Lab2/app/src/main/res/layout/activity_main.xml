@@ -9,23 +9,19 @@
 
     <TextView
         android:id="@+id/view_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/view_value" />
+        android:text="@string/view_value"
+        style="@style/TextView"/>
 
     <EditText
         android:id="@+id/enter_value"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:hint="@string/enter_value"
-        android:inputType="number" />
+        android:inputType="number"
+        style="@style/TextView.Primary"/>
 
     <Button
         android:id="@+id/button_open_form"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        style="@style/TextView.Secondary"
+        android:background="@color/purple_700"
         android:text="@string/button_ok" />
 
 </LinearLayout>
