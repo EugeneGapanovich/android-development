@@ -21,7 +21,6 @@
     <Button
         android:id="@+id/button_open_form"
         style="@style/TextView.Secondary"
-        android:background="@color/purple_700"
         android:text="@string/button_ok" />
 
 </LinearLayout>
